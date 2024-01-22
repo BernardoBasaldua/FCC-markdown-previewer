@@ -1,0 +1,38 @@
+/*Fuente Ubuntu*/
+/*@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap");*/
+
+#component-container {
+    height: 100vh;
+}
+
+.title {
+  background-color: #B60D27;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #011021;
+  padding: 7px;
+  width: 100%; }
+  .title img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 5px;
+    margin-bottom: 5px; }
+  .title span {
+    text-transform: uppercase; }
+
+#editor, #preview {
+  width: 100%;
+  background-color: #e0e0e0;
+  color: #011021; }
+
+#editor:focus {
+  outline: none; }
+
+#preview {
+    height: 560px; 
+    overflow: auto;
+}
+
+img {
+    max-width: 100%;
+}
